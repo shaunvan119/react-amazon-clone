@@ -1,6 +1,8 @@
 
+import React from 'react';
 import './App.css';
 import Header from './Header'
+import Home from './Home';
 
 function App() {
   //BEM
@@ -8,7 +10,7 @@ function App() {
     <div className="app">
       
       <Header/>
-      {/*Home under the header*/}
+      <Home/>
     </div>
   );
 }
