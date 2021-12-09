@@ -9,7 +9,7 @@ function Header() {
             <img 
             className="header_logo" 
             src="https://m.media-amazon.com/images/G/35/gc/designs/livepreview/amazon_logo_noto_email_v2016_au-main._CB444479176_.png"
-            />
+            alt="" />
 
             <div className="header_search">
              <input 
