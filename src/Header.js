@@ -14,7 +14,7 @@ function Header() {
         <Link to="/">
             <img 
             className="header_logo" 
-            src="https://m.media-amazon.com/images/G/35/gc/designs/livepreview/amazon_logo_noto_email_v2016_au-main._CB444479176_.png"
+            src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
             alt="" />
         </Link>
         
@@ -26,11 +26,13 @@ function Header() {
             </div>
 
             <div className="header_nav">
+            <Link to='/login'>
             <div className="header_option">
                <span className="header_optionLineOne">Hello</span>
                <span className="header_optionLineTwo">Sign In</span>
-
             </div>
+            </Link>
+
             <div className="header_option">
                <span className="header_optionLineOne">Returns</span>
                <span className="header_optionLineTwo">& Orders</span>
